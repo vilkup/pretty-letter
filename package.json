@@ -1,6 +1,6 @@
 {
   "name": "pretty-letter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Package for selecting grammatically correct letters depending on the quantity of some items. Can be used for Russian, Ukrainian",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ashleygwilliams/my_package.git"
+    "url": "https://github.com/vilkup/pretty-letter.git"
   },
   "keywords": [
     "pretty-letter",
