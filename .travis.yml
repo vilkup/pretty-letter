@@ -1,3 +1,10 @@
+os: linux
 language: node_js
 node_js:
   - 13
+deploy:
+  edge: true
+  provider: npm
+  email: "$NPM_EMAIL"
+  api_key: "$NPM_TOKEN"
+  cleanup: true
