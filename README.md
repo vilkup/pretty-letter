@@ -1,5 +1,6 @@
 # Pretty Letter – don't screw up in grammar!
 
+[![Build Status](https://travis-ci.org/vilkup/pretty-letter.svg?branch=master)](https://travis-ci.org/vilkup/pretty-letter)
 #### This package can help you with choosing correct letter for your word depending on quantity. Can be used for Russian, Ukrainian and other languages that have the same plural rules
 
 You should pass a **number** on which the choice of letter depends as a first argument and **array of three letters** to choose from as a second argument.
