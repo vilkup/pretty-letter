@@ -2,6 +2,7 @@ os: linux
 language: node_js
 node_js:
   - 13
+before_deploy: "npm version patch"
 deploy:
   provider: npm
   email: "$NPM_EMAIL"
