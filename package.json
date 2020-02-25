@@ -1,0 +1,24 @@
+{
+  "name": "pretty-letter",
+  "version": "1.0.0",
+  "description": "Package for selecting grammatically correct letters depending on the quantity of some items. Can be used for Russian, Ukrainian",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ashleygwilliams/my_package.git"
+  },
+  "keywords": [
+    "pretty-letter",
+    "language",
+    "russian",
+    "ukrainian"
+  ],
+  "author": "Vilen Kupriienko",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^25.1.0"
+  }
+}

@@ -1,0 +1,13 @@
+# macOS desktop config
+.DS_Store
+
+# Webstorm files
+.idea/
+
+# dependencies
+node_modules/
+
+# logs
+logs/
+npm-debug.log*
+*.log
