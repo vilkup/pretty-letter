@@ -1,6 +1,6 @@
 # Pretty Letter – don't screw up in grammar!
 
-#### This package can help you with choosing correct letter for your word depending on quantity.
+#### This package can help you with choosing correct letter for your word depending on quantity. Can be used for Russian, Ukrainian and other languages that have the same plural rules
 
 You should pass a **number** on which the choice of letter depends as a first argument and **array of three letters** to choose from as a second argument.
 
@@ -24,4 +24,15 @@ const message = `${commentsCount} комментари${ending}`
 console.log(message) // 220 комментариев
 ```
 
-Module is working pretty fine with any numbers, even with negative numbers and fractional numbers
+You could even build the entire word just like this:
+``` javascript
+const pl = require('pretty-letter')
+
+const commentsCount = 220
+const word = pl(commentsCount, ['комментарий', 'комментария', 'комментариев']) // imagine "1 комментарий", "2 комментария", "5 комментариев"
+const message = `${commentsCount} ${word}`
+
+console.log(message) // 220 комментариев
+```
+
+Module works pretty fine with any numbers, even with negative numbers and fractional numbers.
