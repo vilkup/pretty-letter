@@ -11,6 +11,10 @@
  * @return {string} letter
  * */
 const prettyLetter = (number, letters) => {
+  if (typeof number !== 'number') {
+    throw new TypeError('First argument must be a number')
+  }
+
   number = Math.abs(number).toString()
 
   const numberIsFractional = number.includes('.')
