@@ -3,7 +3,7 @@ const pl = require('..')
 const letters = ['й', 'я', 'ев']
 
 test('"21 комментарий" resolves the right way', () => {
-  const letter = pl('21', letters)
+  const letter = pl(21, letters)
   return expect(letter).toEqual('й')
 })
 
