@@ -32,7 +32,7 @@ const prettyLetter = (number, letters) => {
     if (firstDigit > 1 && firstDigit < 5 || numberIsFractional && +integerPart === 0) {
       return letters[1]
     }
-    if (firstDigit === 0 || firstDigit >= 5 || numberIsFractional) {
+    if (firstDigit === 0 || firstDigit >= 5) {
       return letters[2]
     }
   }
@@ -43,7 +43,7 @@ const prettyLetter = (number, letters) => {
     if (lastDigit > 1 && lastDigit < 5 || numberIsFractional && +integerPart === 0) {
       return letters[1]
     }
-    if (lastDigit === 0 || lastDigit >= 5 || firstDigit === 1 || numberIsFractional) {
+    if (lastDigit === 0 || lastDigit >= 5 || firstDigit === 1) {
       return letters[2]
     }
   }
