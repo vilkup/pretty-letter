@@ -1,6 +1,6 @@
 {
   "name": "pretty-letter",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "Package for selecting grammatically correct letters depending on the quantity of some items. Can be used for Russian, Ukrainian",
   "main": "index.js",
   "scripts": {
