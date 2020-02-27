@@ -10,11 +10,16 @@
     "type": "git",
     "url": "https://github.com/vilkup/pretty-letter.git"
   },
+  "bugs": {
+    "url": "https://github.com/vilkup/pretty-letter/issues"
+  },
   "keywords": [
     "pretty-letter",
     "language",
     "russian",
-    "ukrainian"
+    "ukrainian",
+    "frontend",
+    "strings"
   ],
   "author": "Vilen Kupriienko",
   "license": "ISC",
