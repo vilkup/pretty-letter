@@ -12,6 +12,11 @@ test('"0.12 комментария" resolves the right way', () => {
   return expect(letter).toEqual('я')
 })
 
+test('"14.82 комментариев" resolves the right way', () => {
+  const letter = pl(14.82, letters)
+  return expect(letter).toEqual('ев')
+})
+
 test('"-15.21 комментариев" resolves the right way', () => {
   const letter = pl(-15.21, letters)
   return expect(letter).toEqual('ев')
