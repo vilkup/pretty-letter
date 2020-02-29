@@ -37,13 +37,14 @@ const prettyLetter = (number, letters) => {
     }
   }
   else {
-    if (lastDigit === 1 && firstDigit !== 1) {
+    const preLastDigit = +integerPart[digitsCount - 2]
+    if (lastDigit === 1 && preLastDigit !== 1) {
       return letters[0]
     }
-    if (lastDigit > 1 && lastDigit < 5 && firstDigit !== 1 || numberIsFractional && +integerPart === 0) {
+    if (lastDigit > 1 && lastDigit < 5 && preLastDigit !== 1 || numberIsFractional && +integerPart === 0) {
       return letters[1]
     }
-    if (lastDigit === 0 || lastDigit >= 5 || firstDigit === 1) {
+    if (lastDigit === 0 || lastDigit >= 5 || preLastDigit === 1) {
       return letters[2]
     }
   }

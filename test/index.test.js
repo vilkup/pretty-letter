@@ -47,6 +47,11 @@ test('"55 комментариев" resolves the right way', () => {
   return expect(letter).toEqual('ев')
 })
 
+test('"511 комментариев" resolves the right way', () => {
+  const letter = pl(511, letters)
+  return expect(letter).toEqual('ев')
+})
+
 test('passing string as first argument calls error', () => {
   return expect(() => {
     return pl('some string', letters)
